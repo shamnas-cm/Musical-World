@@ -2,5 +2,57 @@
           margin: 0;
           box-sizing: border-box;
       }
-      /* Your code goes here */
-      
+
+      .background img{
+         height:100%;
+         width: 100%;
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: cover;
+      }
+      .background{
+        position: absolute;
+        width: 100%;
+      }
+      li{
+        list-style-type: none;
+      }
+    
+      .logo ul li img{
+         position: relative;
+         margin: 0;
+        padding-top: 40px;
+      }
+
+      h1{
+        font-size: 40px;
+        text-align: center;
+        color: white;
+        font-family: sans-serif;
+
+        float: left;
+      }
+     .heading{
+        padding: 40px;
+      }
+      table{
+        position: relative;
+        padding:  30px;
+        width: 100%;
+
+      }
+  
+      table tr{
+         justify-content: center;
+      }
+      table img{
+        width: 230px;
+        padding-left: 10px;
+        
+        opacity: 20;
+      }
+
+      table tr td{
+        padding-top: 40px;
+        vertical-align: top;
+      }
