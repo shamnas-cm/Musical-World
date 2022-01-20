@@ -11,19 +11,17 @@
          background-size: cover;
       }
       .background{
-        position: absolute;
-        width: 100%;
+         position: absolute;
+         width: 100%;
       }
       li{
-        list-style-type: none;
+         list-style-type: none;
       }
-    
       .logo ul li img{
          position: relative;
          margin: 0;
-        padding-top: 40px;
+         padding-top: 40px;
       }
-
       h1{
         font-size: 40px;
         text-align: center;
@@ -55,6 +53,9 @@
       table tr td{
         padding-top: 40px;
         vertical-align: top;
+      }
+      .phoneview{
+        display: none;
       }
        .round{
         height: 70px;
@@ -123,3 +124,81 @@
       display: none;
 
      }
+
+
+@media screen and (max-width: 600px){
+.background img{
+     display: none;
+   }
+
+   body{
+    background-image: url("assets\\icons\\iMac - 6.svg");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 450vh;
+   }
+   .logo ul li img{
+         position: relative;
+         margin: 0;
+        padding-top: 40px;
+        width: 120px;
+      }
+      table{
+        display: none;
+      }
+
+      .phoneview{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center; 
+      }
+      .phoneview h1{
+        padding-top: 40px;
+        font-size: 25px;
+      }
+       .phoneview img{
+        margin-left: 20px;
+        padding-top: 40px;
+        width: 150px;
+      }
+      .round{
+        left: 40%;
+         bottom: 3%;
+      }
+      .round1{
+         bottom: 5%;
+        left: 15%;
+        height: 250px;
+        width: 250px;
+      }
+
+       .play{
+          top: -36px;
+          left: 25px;
+
+         }
+
+      .about{
+          bottom: 1px;
+          left: -55px;
+
+       }
+       .watch{
+         top: 40px;
+          left: -75px;
+
+       }
+     .contact{
+           bottom: 1px;
+          right: -20px;
+     }
+     .sound{
+          top: 40px;
+          right: -30px;
+     }
+
+   
+}
+
+
