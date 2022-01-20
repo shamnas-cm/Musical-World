@@ -56,3 +56,70 @@
         padding-top: 40px;
         vertical-align: top;
       }
+       .round{
+        height: 70px;
+        width: 70px;
+        background-color: #be274e;
+        border: 1px solid #be274e;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        bottom: 10%;
+        left: 47%;
+        cursor: pointer;
+        z-index: 10;
+
+       }
+       .round1{
+        height: 350px;
+        width: 350px;
+        background-color: transparent;
+         border: 50px solid #be274e;
+        border-radius: 50%;
+        position: absolute;
+        bottom: 12%;
+        left: 37%;
+        
+    
+       }
+       div.test { 
+        position: relative;
+        width: 70%; height: 70%;
+        background: -webkit-radial-gradient(50% 50%, circle, transparent 10%, #000 10%); 
+        background: -moz-radial-gradient(50% 50%, circle, transparent 10%, #000 10%);
+        background: radial-gradient(50% 50%, circle, transparent 10%, #000 10%);
+        margin: 0 auto; 
+         }
+         .icons{
+          position: absolute;
+         }
+         .play{
+          top: -36px;
+          left: 60px;
+
+         }
+         
+       .about{
+          bottom: 25px;
+          left: -45px;
+
+       }
+       .watch{
+         top: 40px;
+          left: -55px;
+
+       }
+     .contact{
+           bottom: 25px;
+          right: -10px;
+     }
+     .sound{
+          top: 40px;
+          right: -10px;
+     }
+     .hide{
+      display: none;
+
+     }
